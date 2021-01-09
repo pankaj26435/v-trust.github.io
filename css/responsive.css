@@ -1,0 +1,182 @@
+@media (max-width: 991px) {       
+    .top-bar ul {        
+        flex-direction: column;
+    }    
+    .navbar-toggler {
+        display: inline-block!important;
+        outline: none;
+        width: 31px;
+        height: 20px;
+        cursor: pointer;
+        transition: all .2s;
+        position: relative;
+        align-self: center;
+        background: transparent;
+        border: 0;
+    }
+    .top_menu {     
+        justify-content: space-between;
+    }
+    .header .navbar-brand {
+        padding:0;
+    }
+    a.link-effect::before {display: none;}
+    
+    .slide-content {     
+        width: 85%;
+        margin: 0 auto;        
+    }
+    .slide-content h3 {
+        font-size: 20px;
+        line-height: 18px;        
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .slide-content h5 {
+        font-size: 26px;     
+        line-height: 1;        
+    }
+    .slide-content p {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        margin: 5px 0 15px;
+    }
+    .site-button {
+        font-size: 12px;
+        line-height: 18px;             
+        padding: 5px 20px;
+        margin-top: 0px;
+    }
+    .about-sec .row {     
+        flex-direction: column;
+    }
+    .about-image {
+        margin-right: 0px;
+    }
+    .about-content {
+        margin-left: 0px;  
+        padding: 20px;    
+        margin-top: 20px;  
+    }
+    .about-sec {
+        background: linear-gradient(to top, #f4f4f4 50%, #f48221 50%);
+    }
+    .our-products-top p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .products-wrap {        
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .product-content {     
+        background: rgba(244, 130, 33,0.7);
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        width: calc(100% - 30px);
+        padding: 5px 15px;
+    }
+    .our-products-bottom {
+        position: relative;     
+        margin-left: 15px;
+        margin-right: 15px;
+        box-sizing: border-box;
+    }
+    .footer-widget-title {
+        margin-bottom: 12px;
+        display: block;
+        margin-top: 30px;
+    }
+    .navbar-default .navbar-toggle {        
+        text-align: center;
+        display: block;     
+        color: #000;
+        font-weight: 500;
+        border-color: #000;
+        position: relative;
+    }    
+    header .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: #373435;
+        color: #fff;
+    }
+    header .navbar-default .navbar-nav > li > a:after {
+        display: none;
+    }    
+    .site-title {        
+        font-size: 20px;
+    }
+    /* navbar Collpase issue (above 767px) */
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .header .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+    /* navbar Collpase issue (above 767px) */
+}
+
+@media (max-width: 600px){
+    .slide-content {     
+        width: 85%;
+        margin: 0 auto;        
+    }
+    .slide-content h3 {
+        font-size: 14px;
+        line-height: 18px;        
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .slide-content h5 {
+        font-size: 24px;     
+        line-height: 1;        
+    }
+    .slide-content p { display: none; }
+    .site-button {
+        font-size: 12px;
+        line-height: 18px;             
+        padding: 5px 20px;
+        margin-top: 0px;
+    }
+    .product-content h4 {
+        font-size: 20px;
+    }
+    .product-content p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
